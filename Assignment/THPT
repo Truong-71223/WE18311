@@ -1,1 +1,141 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang chu</title>
+    <style>
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+a{
+    color: #000;
+    text-decoration: none;
+}
+a:hover{
+    color: #fff;
+    text-decoration: underline;
+}
+header{
+    background-image: url(img/logoLQD.gif);
+    padding-bottom: 10%;
+    background-size: 100%;
+}
+nav{
+    color: white;
+    font-variant: small-caps;
+    background-color: #888;
+    line-height: 20px;
+}
+.menu{
+    font-size: 15px;
+}
+.menu ul{
+    background-color: #f0f0f0;
+    padding: 0px;
+    margin: 0px;
+}
+.menu>ul>span>li{
+    display: inline-block;
+}
+.menu ul li{
+    padding: 10px 10px 10px 10px;
+    position: relative;
+} 
+.menu .menuright .search{
+    float: right;
+    width: 250px;
+    height: 20px;
+    margin: 5px;
+}
+.menu .icon a{
+    float: right;
+    margin: 5px;
+}
+.menu .iconhome a{
+    float: left;
+    margin: 5px;
+    padding: 0 5px;
+}
+.menu .submenu{
+    position: absolute;
+    padding: 0px;
+    margin: 0px;
+    top: 30px;
+    left: 0;
+    display: none;
+    border-radius: 5px;
+    line-height: none;
+    width: 200px;
+    background-color: white;
+    list-style: none;
+}
+.menu .submenu a{
+    display: block;
+    line-height: 20px;
+    color: orange;
+    padding: 0 10px
+}
+.menu .submenu li:hover{
+    background-color: red;
+    border-radius: 5px;
+}
+.menu .submenu li:hover a{
+    color: white;
+}
+.menu>ul>span>li:hover>.submenu{
+    display: block;
+    
+}
+    </style>
+</head>
+<body>
+    <div>
+        <header> </header>
+        <nav class="menu">
+            <ul>
+                <span class="iconhome"></span>
+                    <a href=""><img src="img/th.jpg" width="25" height="20" alt=""></a>
+                <span class="menuleft">
+                    <li><a href="">Trang chu</a></li>
+                    <li><a href="">Gioi thieu</a>
+                        <ul class="submenu">
+                            <li><a href="">Co cau to chuc</a></li>
+                            <li><a href="">Thu vien</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="">Lien he </a></li>
+                    <li><a href="">Gop y</a></li>
+                    <li><a href="">Hoi & dap</a></li>
+                </span>
+                <span class="icon">
+                    <a href=""><img src="img/search.jpg" width="25" height="25" alt=""></a>
+                </span>
+                <span class="menuright">
+                    <input type="text" name="search" class="search">
+                </span>
+            </ul>
+        </nav>
+        <article>
+            <div style="width: 60%; height: 50px; float: right;">
+                <div style="float: left; padding: 5px 0px; width: 50%;">
+                    <span>Chu Nhat, ngay 19 thang 2 nam 2023</span>
+                </div>
+            </div>
+            <div>
+                <a href=""></a>
+            </div>
+            <div>
+                <a href=""><img src="img/LOGOHOACUC-LQD.jpg" alt=""></a>
+                <div>
+                    <span>Tin Tuc</span>
+                </div>
+                <hr color="#097934">
+            </div>
+        </article>
+    </div>
+</body>
+</html>
