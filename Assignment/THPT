@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Trang chu</title>
+    <link rel="stylesheet" href="css.css">
     <style>
 *{
     margin: 0px;
@@ -16,7 +17,7 @@ a{
     text-decoration: none;
 }
 a:hover{
-    color: #fff;
+    color: #cd853f;
     text-decoration: underline;
 }
 header{
@@ -87,8 +88,69 @@ nav{
     color: white;
 }
 .menu>ul>span>li:hover>.submenu{
+    display: block;  
+}
+body{
+    background-color: aliceblue;
+}
+#body{
+    width: 960px;
+    margin: 0 auto;
+}
+#left{
+    width: 200px;
+    background-color: #eecfa1;
+    height: 100%;
+    float: left;
+}
+.aside{
+    height: 50px;
+    background-color: #ffdead;
+}
+.aside h2{
+    text-align: center;
+    color: blue;
+    line-height: 50px;
+}
+#left ul li{
+    list-style: none;
     display: block;
-    
+    padding-left: 20px;
+    line-height: 50px;
+}
+#left ul li a{
+    text-decoration: none;
+}
+#left ul li:hover{
+    background-color: orange;
+    border-bottom: 1px solid gray;
+}
+#giua{
+    width: 560px;
+    height: 100%;
+    float: left;
+}
+#giua img{
+    width: 500px;
+    height: 300px;
+    padding: 5px;
+    padding-left: 100px;
+}
+#right{
+    width: 200px;
+    background-color: yellow;
+    height: 300px;
+    float: left;
+}
+#right h2{
+    text-align: center;
+    color:white;
+    background-color: #8b3626;
+}
+#right p{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 10px;
 }
     </style>
 </head>
@@ -120,20 +182,35 @@ nav{
             </ul>
         </nav>
         <article>
-            <div style="width: 60%; height: 50px; float: right;">
-                <div style="float: left; padding: 5px 0px; width: 50%;">
-                    <span>Chu Nhat, ngay 19 thang 2 nam 2023</span>
+            <div id="body">
+                    <div id="left">
+                        <div class="aside">
+                            <h2>Danh muc</h2>
+                        </div>
+                        <ul>
+                            <li><a href="">Ky niem 20 nam thanh lap</a></li>
+                            <li><a href="">Cong doan</a></li>
+                            <li><a href="">Doan truong</a></li>
+                            <li><a href="">Phu huynh hoc sinh</a></li>
+                            <li><a href="">Cong tac chuyen mon</a></li>
+                        </ul>
+                    </div>
+                    <div id="giua">
+                        <img src="img/logo.jpg" alt="">
+                    </div>
+                    <div id="right">
+                        <div><h2>Tin moi nhat</h2></div>
+                        <marquee behavior="" direction="up">
+                            <p>Triển lãm số kết hợp với trưng bày tranh “Hoàng Sa, Trường Sa của Việt Nam - Những bằng chứng lịch sử và pháp lý” tại trường THPT Lê Quý Đôn</p>
+                            <p>Thời khóa biểu HK2 năm học 2022-2023 áp dụng ngày 16/01/2023</p>
+                            <p>Thời gian nghỉ tết Nguyên Đán Quý Mão năm 2023</p>
+                            <p>Điểm KTCK1 sau phúc khảo môn Địa, GDKTPL lớp 10 NH 2022-2023.</p>
+                            <p>Điểm KTCK1 sau phúc khảo môn Hoá, Sinh lớp 10 NH 2022-2023.</p>
+                            <p>ĐỀ - ĐÁP ÁN KTGKI KHỐI 12-2022-2023</p>
+                            <p>ĐỀ - ĐÁP ÁN KTGKI KHỐI 11-2022-2023</p>
+                        </marquee>
+                    </div>
                 </div>
-            </div>
-            <div>
-                <a href=""></a>
-            </div>
-            <div>
-                <a href=""><img src="img/LOGOHOACUC-LQD.jpg" alt=""></a>
-                <div>
-                    <span>Tin Tuc</span>
-                </div>
-                <hr color="#097934">
             </div>
         </article>
     </div>
