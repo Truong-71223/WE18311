@@ -139,7 +139,7 @@ body{
 #right{
     width: 200px;
     background-color: yellow;
-    height: 300px;
+    height: 640px;
     float: left;
 }
 #right h2{
@@ -149,7 +149,7 @@ body{
 }
 #right p{
     font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
+    float: inherit;
     padding: 10px;
 }
     </style>
@@ -188,19 +188,27 @@ body{
                             <h2>Danh muc</h2>
                         </div>
                         <ul>
-                            <li><a href="">Ky niem 20 nam thanh lap</a></li>
-                            <li><a href="">Cong doan</a></li>
-                            <li><a href="">Doan truong</a></li>
-                            <li><a href="">Phu huynh hoc sinh</a></li>
-                            <li><a href="">Cong tac chuyen mon</a></li>
+                            <li><a href="">Kỷ niệm 20 năm thành lập</a></li>
+                            <li><a href="">Công đoàn</a></li>
+                            <li><a href="">Đoàn trường</a></li>
+                            <li><a href="">Phụ huynh học sinh</a></li>
+                            <li><a href="">Công tác chuyên môn</a></li>
+                            <li><a href="">Các hoạt động giáo dục</a></li>
+                            <li><a href="">Hồ sơ công khai</a></li>
+                            <li><a href="">Sổ liên lạc điện tử</a></li>
+                            <li><a href="">Thời khóa biểu</a></li>
+                            <li><a href="">Kết quả học tập</a></li>
+                            <li><a href="">Tổ văn phòng</a></li>
+                            <li><a href="">Thư viện-Thiết bị</a></li>
                         </ul>
                     </div>
                     <div id="giua">
+                        <img src="img/DANHNGONLQD-xanh.gif" alt="" srcset="">
                         <img src="img/logo.jpg" alt="">
                     </div>
                     <div id="right">
                         <div><h2>Tin moi nhat</h2></div>
-                        <marquee behavior="" direction="up">
+                        <marquee behavior="scroll" direction="up">
                             <p>Triển lãm số kết hợp với trưng bày tranh “Hoàng Sa, Trường Sa của Việt Nam - Những bằng chứng lịch sử và pháp lý” tại trường THPT Lê Quý Đôn</p>
                             <p>Thời khóa biểu HK2 năm học 2022-2023 áp dụng ngày 16/01/2023</p>
                             <p>Thời gian nghỉ tết Nguyên Đán Quý Mão năm 2023</p>
